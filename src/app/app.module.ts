@@ -9,6 +9,8 @@ import { LocalizationComponent } from './localization/localization.component';
 import { AppRoutingModule } from './app-routing.module';
 import { RouterModule } from '../../node_modules/@angular/router';
 import { HomeComponent } from './home/home.component';
+import { EventsComponent } from './events/events.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { HomeComponent } from './home/home.component';
     FooterComponent,
     DireccionComponent,
     LocalizationComponent,
-    HomeComponent
+    HomeComponent,
+    EventsComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,
