@@ -1,0 +1,22 @@
+#vertical-left-column {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 15px;
+}
+
+#main {
+  margin: 15px;
+}
+
+#menu-cards {
+  display: inline-block;
+  float: left;
+}
+
+.card {
+  height: 200px;
+  width: 200px;
+}
+
+.card-title {
+  font-size: 15px;
+}
