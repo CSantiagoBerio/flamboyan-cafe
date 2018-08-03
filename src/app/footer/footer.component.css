@@ -1,0 +1,18 @@
+.page-footer {
+    background-color: rgb(0,0,0,0.5);
+}
+
+#social-networks a i{
+    font-size: 25px;
+    color: white;
+    padding: 8px;
+    margin-top: 1em;
+}
+
+#contact {
+    font-size: 15px;
+}
+
+#copyright {
+    margin-top: 2em;
+}
