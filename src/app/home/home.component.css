@@ -10,6 +10,7 @@
 #menu-cards {
   display: inline-block;
   float: left;
+  width: auto;
 }
 
 #description {
@@ -17,10 +18,15 @@
 }
 
 .card {
-  height: 200px;
-  width: 200px;
+  height: 100%;
+  width: 100%;
 }
 
 .card-title {
-  font-size: 15px;
+  font-size: 20px;
+}
+
+img {
+  height: inherit;
+  width: inherit;
 }
